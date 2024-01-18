@@ -86,7 +86,7 @@ def get_time(): #Gets the systems current date and time.
 
 def get_api(): #Gets the current weather and time from specified location.
 
-    url = "https://api.tomorrow.io/v4/weather/realtime?location=baltimore&apikey=QXVwuqdybq7CXdn7cDni7yc8J7P8zoIY"
+    url = "https://api.tomorrow.io/v4/weather/realtime?location=baltimore&apikey=place api key here"
     header = "accept: application/json"
 
     response = requests.get(url, header)
